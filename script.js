@@ -21,6 +21,7 @@
             const totalData = document.createElement('td');
             totalData.colSpan = 2; // Make the cell span across 2 columns
             totalData.className = 'total';
+			totalData.id = 'ans';
             totalData.textContent = `Total: Rs ${total.toFixed(2)}`;
 
             totalRow.appendChild(totalData);
